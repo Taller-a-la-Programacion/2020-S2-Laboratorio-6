@@ -1,10 +1,10 @@
-# 2021 S2 Laboratorio 3
+# 2021 S2 Laboratorio 6
 
 ## Instrucciones Generales
-- El archivo **debe** llamarse **Laboratorio3.py**
-- Debe realizar la siguiente función con recursión de cola
+- El archivo **debe** llamarse **Laboratorio6.py**
+- Debe realizar la siguiente función con recursión
 
-## Ejercicio 1. Valor 20 puntos.
+## Ejercicio 1..
 Escriba una función llamada **eliminarRepetidos** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y eliminar si un elemento de esta lista aparece más de una vez. Hacer uso de la iteración y evitar funciones built-in.
 
 ```python
@@ -14,7 +14,7 @@ Escriba una función llamada **eliminarRepetidos** que reciba como parámetro de
 [5.2]
 ```
 
-## Ejercicio 2. Valor 20 puntos.
+## Ejercicio 2..
 Escriba una función sumaImparesPares (lista1 , lista2) que reciba dos lista de números, y retorne una lista que contenga la suma de las posiciones pares de las dos listas de la misma manera con las posiciones impares. No puede usar len (), solo puede recorrer la lista una vez. La función debe comportarse de la siguiente manera:
 
 ```python
@@ -26,24 +26,12 @@ Escriba una función sumaImparesPares (lista1 , lista2) que reciba dos lista de 
  "Error: segundo argumento debe ser entero"
  ```
 
-## Ejercicio 3. Valor 20 puntos.
-Escriba una función llamada convertirBase que reciba como parámetro de entrada una lista con diferentes elementos y otros 2 parámetros que son la base de origen y de destino que dicta a hacia donde hacer la conversión. Hacer uso de la recursión y evitar funciones built-in.
+## Ejercicio 3.
+Escriba una función llamada matrizDiagonalInversa que reciba como parámetro de entrada una matriz cuadrada y que retorne como vector la diagonal inversa de la matriz. Evitar funciones built-in.
 
 ```python
->>> convertirBase( [0,0,1,0] , 2, 10)
-2
->>> convertirBase( [2] , 10, 2)
-10
->>> convertirBase( ["F","F","F"] , 16, 10)
-4095
->>> convertirBase( [4,0,9,5] , 10, 16)
-"FFF"
->>> convertirBase( [7] , 10, 4)
-13
->>> convertirBase( [1,3] , 4, 10) 
-7
->>> convertirBase( [2,5,3] , 10, 7)
-511
->>> convertirBase( [5,1,1] , 7, 10)
-253
+>>> matrizDiagonalInversa( [[0,0,1,0], [0,0,1,0], [0,0,1,0], [0,0,1,0]])
+[0, 0, 1, 0]
+>>> matrizDiagonalInversa( [[0,0,1], [0,1,0], [0,0,0]])
+[0, 1, 0]
 ```
